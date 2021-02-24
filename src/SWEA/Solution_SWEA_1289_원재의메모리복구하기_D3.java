@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Solution_SWEA_1289_원재의메모리복구하기_D3 {
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
-		
+
 		Scanner sc = new Scanner(System.in);
 //		BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
 		int T = sc.nextInt();
@@ -25,7 +25,7 @@ public class Solution_SWEA_1289_원재의메모리복구하기_D3 {
 			System.out.println("#" + test_case + " " + count);
 		} // end of tc
 		long endTime = System.currentTimeMillis();
-		System.out.println(endTime-startTime+"ms"); //시간 재는 것
+		System.out.println(endTime - startTime + "ms"); // 시간 재는 것
 
 	}// end of main
 
